@@ -16,11 +16,11 @@ Used modified binary search with two pointers (left, right) on a rotated sorted 
 Handled duplicates by shrinking the range when nums[left] == nums[mid] == nums[right], 
 otherwise moved pointers based on which half is sorted to locate the target efficiently.
 
-## Complexity
-Time Complexity:
+## Complexity:
+## Time Complexity:
 Average case: O(log n)
 Worst case (many duplicates): O(n)
 (This is unavoidable due to ambiguous duplicate cases.)
 
-🧠 Space Complexity:
+## Space Complexity:
 O(1) (constant extra space)

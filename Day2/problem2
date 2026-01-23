@@ -1,1 +1,21 @@
-## Maximum Product Subarray
+🔹 Problem
+Maximum Product Subarray
+Link: https://leetcode.com/problems/maximum-product-subarray/description/?source=submission-ac
+
+Problem Statement
+Given an integer array nums, find a subarray that has the largest product, and return the product.
+The test cases are generated so that the answer will fit in a 32-bit integer.
+
+Approach
+We keep track of both the maximum and minimum product ending at the current index because multiplying
+by a negative number can swap their roles. For each element, we compute the new max and min using 
+the current value and previous products, and update the global maximum.
+
+Complexity:
+Time Complexity:
+Best Case Time Complexity: O(n)
+Average Case Time Complexity: O(n)
+Worst Case Time Complexity: O(n)
+
+Space Complexity:
+O(1) 
